@@ -1,0 +1,30 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	margin: 0;
+	font-family: 'Noto Sans', sans-serif;
+	font-size: 20px;
+	color: white;
+	line-height: 2;
+}
+
+#showcase{
+	background-image: url(https://images.pexels.com/photos/1229861/pexels-photo-1229861.jpeg?cs=srgb&dl=pexels-hasan-albari-1229861.jpg&fm=jpg);
+	background-size: cover;
+	background-position: center;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.arrow{
+	border-left: 0.5rem solid white;
+	border-bottom: 0.5rem solid white;
+	width: 2rem;
+	height: 2rem;
+	transform: rotate(-45deg);
+}
