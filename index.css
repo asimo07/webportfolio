@@ -9,6 +9,7 @@ body{
 	font-size: 20px;
 	color: white;
 	line-height: 2;
+	background-color: #82827c;
 }
 
 #showcase{
@@ -20,6 +21,9 @@ body{
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+	text-align: center;
+	padding-bottom: 0;
+	margin-bottom: 0;
 }
 .arrow{
 	border-left: 0.5rem solid white;
@@ -27,4 +31,22 @@ body{
 	width: 2rem;
 	height: 2rem;
 	transform: rotate(-45deg);
+}
+#about{
+	display: flex;
+	flex-direction: column;
+}
+#pic{
+	display: flex;
+}
+#pic img{
+	width: 575px;
+	height: 400px;
+}
+.headings{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
 }
