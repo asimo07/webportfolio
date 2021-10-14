@@ -32,16 +32,7 @@ body{
 	height: 2rem;
 	transform: rotate(-45deg);
 }
-#about{
-	display: flex;
-	flex-direction: column;
-	box-sizing: border-box;
-	padding: 20px;
-	margin-bottom: 20px;
-	padding-left: 
-	font-family: 'Noto Sans', sans-serif;
-	font-size: 20px;
-}
+
 #pic{
 	display: flex;
 }
@@ -52,6 +43,7 @@ body{
 }
 .headings{
 	display: flex;
+	flex-wrap: 
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
@@ -75,12 +67,6 @@ body{
 	color: white;
 	align-items: center;
 	padding: 20px;
-}
-.gallery{
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-around;
-	box-sizing: border-box;
 }
 .gallery img{
 	width: 300px;
